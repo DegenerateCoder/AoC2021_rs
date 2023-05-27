@@ -1,4 +1,4 @@
-pub fn part1(file_path: &str) -> u32 {
+pub fn part01(file_path: &str) -> u32 {
     let file = std::fs::read_to_string(file_path).unwrap();
     let mut file = file.lines();
 
@@ -15,7 +15,7 @@ pub fn part1(file_path: &str) -> u32 {
     depth_increases
 }
 
-pub fn part2(file_path: &str) -> u32 {
+pub fn part02(file_path: &str) -> u32 {
     let file = std::fs::read_to_string(file_path).unwrap();
     let file = file.lines();
 
@@ -37,7 +37,7 @@ pub fn part2(file_path: &str) -> u32 {
     depth_increases
 }
 
-pub fn part2_v2(file_path: &str) -> u32 {
+pub fn part02_v2(file_path: &str) -> u32 {
     let file = std::fs::read_to_string(file_path).unwrap();
     let file = file.lines();
 
