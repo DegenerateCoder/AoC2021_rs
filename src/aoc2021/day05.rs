@@ -115,6 +115,3 @@ pub fn part02(file_path: &str) -> u32 {
 
     overlapp_count
 }
-
-
-
