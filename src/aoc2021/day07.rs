@@ -46,9 +46,13 @@ pub fn part02(file_path: &str) -> u32 {
     *min_fuel_cost
 }
 
+// sum of an arithmetic series
+// https://en.wikipedia.org/wiki/Arithmetic_progression#Sum
 pub fn calculate_fuel_cost(pos: u32) -> u32 {
-    let pos_range = 1..=pos;
-    let fuel_cost = pos_range.sum();
+    let n = pos;
+    let a1 = 1;
+    let an = pos;
+    let fuel_cost = (n / 2) * (a1 + an);
 
     fuel_cost
 }
