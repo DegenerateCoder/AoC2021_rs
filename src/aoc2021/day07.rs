@@ -48,11 +48,12 @@ pub fn part02(file_path: &str) -> u32 {
 
 // sum of an arithmetic series
 // https://en.wikipedia.org/wiki/Arithmetic_progression#Sum
-pub fn calculate_fuel_cost(pos: u32) -> u32 {
+fn calculate_fuel_cost(pos: u32) -> u32 {
     let n = pos;
     let a1 = 1;
     let an = pos;
-    let fuel_cost = (n / 2) * (a1 + an);
+    let mut fuel_cost = n * (a1 + an);
+    fuel_cost /= 2;
 
     fuel_cost
 }
