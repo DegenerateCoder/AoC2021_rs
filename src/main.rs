@@ -58,6 +58,12 @@ fn main() {
     let day09_part2 = aoc2021::day09::part02("./puzzle_input/day09_test.txt");
     println!("\t\tpart 2: {day09_part2}");
 
+    println!("\tDay 10: ");
+    let day10_part1 = aoc2021::day10::part01("./puzzle_input/day10_test.txt");
+    println!("\t\tpart 1: {day10_part1}");
+    let day10_part2 = aoc2021::day10::part02("./puzzle_input/day10_test.txt");
+    println!("\t\tpart 2: {day10_part2}");
+
     println!("Puzzle data:");
 
     println!("\tDay 01: ");
@@ -114,4 +120,10 @@ fn main() {
     println!("\t\tpart 1: {day09_part1}");
     let day09_part2 = aoc2021::day09::part02("./puzzle_input/day09.txt");
     println!("\t\tpart 2: {day09_part2}");
+
+    println!("\tDay 10: ");
+    let day10_part1 = aoc2021::day10::part01("./puzzle_input/day10.txt");
+    println!("\t\tpart 1: {day10_part1}");
+    let day10_part2 = aoc2021::day10::part02("./puzzle_input/day10.txt");
+    println!("\t\tpart 2: {day10_part2}");
 }
