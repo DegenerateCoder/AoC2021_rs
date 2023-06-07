@@ -94,6 +94,12 @@ fn main() {
         .collect();
     println!("\t\tpart 2: \n{day13_part2}");
 
+    println!("\tDay 14: ");
+    let day14_part1 = aoc2021::day14::part01("./puzzle_input/day14_test.txt");
+    println!("\t\tpart 1: {day14_part1}");
+    let day14_part2 = aoc2021::day14::part02_v2("./puzzle_input/day14_test.txt");
+    println!("\t\tpart 2: {day14_part2}");
+
     println!("Puzzle data:");
 
     println!("\tDay 01: ");
@@ -178,4 +184,10 @@ fn main() {
         .map(|line| format!("\t\t\t{line}\n"))
         .collect();
     println!("\t\tpart 2: \n{day13_part2}");
+
+    println!("\tDay 14: ");
+    let day14_part1 = aoc2021::day14::part01("./puzzle_input/day14.txt");
+    println!("\t\tpart 1: {day14_part1}");
+    let day14_part2 = aoc2021::day14::part02_v2("./puzzle_input/day14.txt");
+    println!("\t\tpart 2: {day14_part2}");
 }
