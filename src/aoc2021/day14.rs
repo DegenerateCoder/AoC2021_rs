@@ -47,6 +47,7 @@ pub fn part01(file_path: &str) -> u32 {
     answer as u32
 }
 
+#[allow(dead_code)]
 pub fn part02_v1(file_path: &str) -> u32 {
     let file = std::fs::read_to_string(file_path).unwrap();
     let mut file = file.lines();
