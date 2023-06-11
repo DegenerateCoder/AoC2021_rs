@@ -100,6 +100,18 @@ fn main() {
     let day14_part2 = aoc2021::day14::part02_v2("./puzzle_input/day14_test.txt");
     println!("\t\tpart 2: {day14_part2}");
 
+    println!("\tDay 15: ");
+    let day15_part1 = aoc2021::day15::part01("./puzzle_input/day15_test.txt");
+    println!("\t\tpart 1: {day15_part1}");
+    let day15_part2 = aoc2021::day15::part02("./puzzle_input/day15_test.txt");
+    println!("\t\tpart 2: {day15_part2}");
+
+    println!("\tDay 16: ");
+    let day16_part1 = aoc2021::day16::part01("./puzzle_input/day16_test.txt");
+    println!("\t\tpart 1: {day16_part1}");
+    let day16_part2 = aoc2021::day16::part02("./puzzle_input/day16_test2.txt");
+    println!("\t\tpart 2: {day16_part2}");
+
     println!("Puzzle data:");
 
     println!("\tDay 01: ");
@@ -190,4 +202,16 @@ fn main() {
     println!("\t\tpart 1: {day14_part1}");
     let day14_part2 = aoc2021::day14::part02_v2("./puzzle_input/day14.txt");
     println!("\t\tpart 2: {day14_part2}");
+
+    println!("\tDay 15: ");
+    let day15_part1 = aoc2021::day15::part01("./puzzle_input/day15.txt");
+    println!("\t\tpart 1: {day15_part1}");
+    let day15_part2 = aoc2021::day15::part02("./puzzle_input/day15.txt");
+    println!("\t\tpart 2: {day15_part2}");
+
+    println!("\tDay 16: ");
+    let day16_part1 = aoc2021::day16::part01("./puzzle_input/day16.txt");
+    println!("\t\tpart 1: {day16_part1}");
+    let day16_part2 = aoc2021::day16::part02("./puzzle_input/day16.txt");
+    println!("\t\tpart 2: {day16_part2}");
 }
